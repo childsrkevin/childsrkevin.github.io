@@ -26,7 +26,7 @@ button{
   -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
   width: 70%;
-  height:50px;
+  height:60px;
   background:#3187b1;
   border:0;
   margin-top:10%;
@@ -98,7 +98,7 @@ header a:hover{
   margin-top: 20px;
   height: 80%;
   width: 80%;
-  background-color: rgba(53, 66, 74, 0.7);
+  background-color: transparent;
   text-align:center;
   color:#ffffff;
 }
