@@ -67,7 +67,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
 }
 
 header #branding{
@@ -114,3 +114,17 @@ header a:hover{
 .content p{
   font-size:20px;
 }
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
