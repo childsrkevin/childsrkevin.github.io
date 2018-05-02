@@ -104,20 +104,25 @@ table{
   color: black;
   width: 100%;
   text-align: center;
+  border: none;
+  border-collapse: collapse;
 
 }
+
 table img{
   width: 100px;
   height: 100px;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: none;
     padding: 8px;
+    width: 50%;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
 /* Showcase */
 .content{
   margin: auto;
