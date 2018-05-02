@@ -104,6 +104,10 @@ table{
   color: black;
   width: 70%;
 }
+table img{
+  width: 100px;
+  height: 100px;
+}
 /* Showcase */
 .content{
   margin: auto;
