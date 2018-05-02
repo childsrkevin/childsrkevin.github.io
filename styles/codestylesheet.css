@@ -122,7 +122,6 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-
 /* Showcase */
 .content{
   margin: auto;
