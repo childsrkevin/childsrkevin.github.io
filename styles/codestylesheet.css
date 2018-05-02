@@ -102,10 +102,10 @@ header a:hover{
 table{
   margin: auto;
   color: black;
-  width: 60%;
+  width: 100%;
   text-align: center;
+  border: none;
   border-collapse: collapse;
-  border-radius: 12px;
 
 }
 
@@ -114,7 +114,6 @@ table img{
   height: 100px;
 }
 td, th {
-
     border: none;
     padding: 8px;
     width: 50%;
@@ -122,9 +121,6 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
-}
-tr:nth-child(odd) {
-    background-color: #f5e2e2;
 }
 
 /* Showcase */
