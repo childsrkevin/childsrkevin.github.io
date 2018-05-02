@@ -99,6 +99,11 @@ header a:hover{
   font-weight:bold;
 }
 
+table{
+  margin: auto;
+  color: black;
+  width: 70%;
+}
 /* Showcase */
 .content{
   margin: auto;
