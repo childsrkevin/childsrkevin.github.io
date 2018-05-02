@@ -157,13 +157,10 @@ header a:hover{
   #newsletter form,
   #boxes .box,
   article#main-col,
-  .left,
-  .mid,
-  .right,
   aside#sidebar{
-    //float:none;
+    float:none;
     text-align:center;
-    //width:100%;
+    width:100%;
   }
   header{
     padding-bottom:20px;
