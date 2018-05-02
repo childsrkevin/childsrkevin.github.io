@@ -102,11 +102,21 @@ header a:hover{
 table{
   margin: auto;
   color: black;
-  width: 70%;
+  width: 100%;
+  text-align: center;
+
 }
 table img{
   width: 100px;
   height: 100px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 /* Showcase */
 .content{
