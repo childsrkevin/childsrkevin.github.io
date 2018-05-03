@@ -1,0 +1,198 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  font-family: 'Gugi';
+  padding:0;
+  margin:0;
+  background-color: rgb(240, 238, 236);
+
+}
+.aboutbody{
+  height: 100%;
+  font-family: 'Gugi';
+  padding:0;
+  margin:0;
+  background-color: #f9f9f9;
+
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+button{
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  width: 70%;
+  height:50px;
+  background:#3187b1;
+  border:0;
+  margin-top:10%;
+  color:#ffffff;
+  font-size:16px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #be8d43; /* Green */
+    color: white;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#3187b1 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:20px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#3187b1;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+.content{
+  margin: auto;
+  //margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  text-align:center;
+  color:#ffffff;
+}
+
+.content h1{
+  margin-top:30px;
+  font-size:35px;
+  margin-bottom:10px;
+  color: #3187b1;
+}
+
+.content p{
+  font-size:20px;
+}
+
+.left{
+  margin: auto;
+  float:left;
+  width: 33%;
+  height: 50%;
+  margin-top: 100px;
+}
+.left img{
+  width: 200px;
+  height: 200px;
+}
+.mid{
+  margin: auto;
+  float:left;
+  width: 33%;
+  height: 50%;
+    margin-top: 100px;
+}
+.mid img{
+  width: 200px;
+  height: 200px;
+}
+.right{
+  margin: auto;
+  float:left;
+  width: 33%;
+  height: 50%;
+    margin-top: 100px;
+}
+.right img{
+  width: 200px;
+  height: 200px;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  header{
+    padding-bottom:20px;
+  }
+  header a {
+    font-size: 15px;
+  }
+  header li{
+    padding: 0 5px 0 5px;
+  }
+  .left,
+  .mid,
+  .right{
+    height: 100px;
+    margin-top: 50px;
+  }
+  .left img,
+  .mid img,
+  .right img{
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .content h1{
+    margin-top:40px;
+  }
+}
