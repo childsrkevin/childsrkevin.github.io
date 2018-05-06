@@ -31,9 +31,9 @@ function draw (){
 	}
 }
 
-/*function windowResized() {
+function windowResized() {
 	resizeCanvas(windowWidth, windowHeight/2);
-}*/
+}
 
 function rectangle(arrpos, h){
 	this.posx = (windowWidth/numRecs)*arrpos+1;
