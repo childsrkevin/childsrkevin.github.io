@@ -22,7 +22,8 @@ function setup (){
 
 
 function draw (){
-	background(240, 238, 236);
+	//background(240, 238, 236);
+	background(255);
 
 	sortRect();
 	for(var i = 0; i < numRecs; i++){
@@ -30,9 +31,9 @@ function draw (){
 	}
 }
 
-function windowResized() {
+/*function windowResized() {
 	resizeCanvas(windowWidth, windowHeight/2);
-}
+}*/
 
 function rectangle(arrpos, h){
 	this.posx = (windowWidth/numRecs)*arrpos+1;
