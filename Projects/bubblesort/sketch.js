@@ -22,8 +22,8 @@ function setup (){
 
 
 function draw (){
-	//background(240, 238, 236);
-	background(255);
+	background(240, 238, 236);
+	//background(255);
 
 	sortRect();
 	for(var i = 0; i < numRecs; i++){
