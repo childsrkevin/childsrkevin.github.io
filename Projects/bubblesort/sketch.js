@@ -59,13 +59,17 @@ function rectangle(arrpos, h){
 
 }
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function sortRect(){
 	var temp;
 		for(var j = 0; j < numRecs-1; j++){
 			var height1 = rectangles[j].getHeight();
 			var height2 = rectangles[j+1].getHeight();
 			if(height1 > height2){
-				sleep(1);
+				await sleep(1000);
 				temp =rectangles[j].getHeight();
 				rectangles[j].setHeight(rectangles[j+1].getHeight());
 				rectangles[j+1].setHeight(temp);
