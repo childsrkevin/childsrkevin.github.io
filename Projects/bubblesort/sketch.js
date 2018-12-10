@@ -65,6 +65,7 @@ function sortRect(){
 			var height1 = rectangles[j].getHeight();
 			var height2 = rectangles[j+1].getHeight();
 			if(height1 > height2){
+				sleep(1);
 				temp =rectangles[j].getHeight();
 				rectangles[j].setHeight(rectangles[j+1].getHeight());
 				rectangles[j+1].setHeight(temp);
