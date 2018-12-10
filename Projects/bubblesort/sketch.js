@@ -63,7 +63,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function sortRect(){
+async function sortRect(){
 	var temp;
 		for(var j = 0; j < numRecs-1; j++){
 			var height1 = rectangles[j].getHeight();
