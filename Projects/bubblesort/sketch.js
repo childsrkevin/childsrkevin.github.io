@@ -6,7 +6,7 @@ var totSwaps = 0;
 
 function setup (){
 	var canv = createCanvas(windowWidth, windowHeight/2);
-	frameRate(5);
+	frameRate(30);
 	var x = (windowWidth - width) / 2;
 	var y = (windowHeight-height);
 	distBetween = (windowWidth)/numRecs;
