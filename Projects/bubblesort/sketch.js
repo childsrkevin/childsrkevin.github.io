@@ -6,7 +6,7 @@ var totSwaps = 0;
 
 function setup (){
 	var canv = createCanvas(windowWidth, windowHeight/2);
-	frameRate(20);
+	frameRate(10);
 	var x = (windowWidth - width) / 2;
 	var y = (windowHeight-height);
 	distBetween = (windowWidth)/numRecs;
@@ -23,7 +23,7 @@ function setup (){
 
 function draw (){
 	background(240, 238, 236);
-	//background(255);
+
 
 	sortRect();
 	for(var i = 0; i < numRecs; i++){
