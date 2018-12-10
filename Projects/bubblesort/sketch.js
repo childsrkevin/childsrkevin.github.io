@@ -6,7 +6,7 @@ var totSwaps = 0;
 
 function setup (){
 	var canv = createCanvas(windowWidth, windowHeight/2);
-	frameRate(10);
+	frameRate(5);
 	var x = (windowWidth - width) / 2;
 	var y = (windowHeight-height);
 	distBetween = (windowWidth)/numRecs;
@@ -59,17 +59,12 @@ function rectangle(arrpos, h){
 
 }
 
-function sleep (time) {
-  return new Promise((resolve) => setTimeout(resolve, time));
-}
-
 function sortRect(){
 	var temp;
 		for(var j = 0; j < numRecs-1; j++){
 			var height1 = rectangles[j].getHeight();
 			var height2 = rectangles[j+1].getHeight();
 			if(height1 > height2){
-				sleep(1000);
 				temp =rectangles[j].getHeight();
 				rectangles[j].setHeight(rectangles[j+1].getHeight());
 				rectangles[j+1].setHeight(temp);
